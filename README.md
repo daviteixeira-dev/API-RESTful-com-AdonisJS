@@ -34,6 +34,32 @@ testes foram feitos via <b>Postman</b>, para garantir o correto funcionamento da
 
 ## 💻 Back-end
 
+### Instalação e inicialização da API
+
+### ```COMANDOS```
+
+#### Para instalar as dependências
+```
+ yarn install
+```
+
+#### Para gerar a variável de ambiente APP_KEY
+```
+ node ace generate:key
+```
+Depois de gerar o valor da key, procure por um arquivo chamado ".env.example", faça uma copia desse arquivo e o renomeie para 
+".env", em seguida copie o valor gerado no terminal da nova key e subistitua o valor de APP_KEY para o novo valor.
+
+#### Para rodar a API
+```
+ node ace serve --watch
+```
+Após isso, o projeto vem com as migrações do banco de dados porem ele não vem com as tabelas, precisando assim crialas com o seguinte comando:
+
+```
+ node ace migration:run
+``` 
+
 ### Moments
 
 ### 🎯 Pegar um momento atravez do ID
@@ -99,6 +125,15 @@ http://localhost:3333/api/moments/1/comments
 <a id="Dependências"></a>
 ## 🧪 Dependências
 > Requisitos para rotar o codigo...
+
+<ul>
+  <li>
+    <a href="https://nodejs.org/en">Node</a>
+  </li>
+  <li>
+    <a href="https://yarnpkg.com/">Yarn</a>
+  </li>
+</ul>
 
 ## `📖 Scripts` 
 
