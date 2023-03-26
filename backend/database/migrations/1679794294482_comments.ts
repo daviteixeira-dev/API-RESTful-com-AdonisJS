@@ -9,6 +9,8 @@ export default class extends BaseSchema {
       table.string("username")
       table.string("text")
 
+      table.integer("moment_id").unsigned().references("moments.id").onDelete("CASCADE")
+
       /**
        * Uses timestamptz for PostgreSQL and DATETIME2 for MSSQL
        */
