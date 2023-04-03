@@ -15,8 +15,7 @@
 <a id="Introdução"></a>
 ## 🧩 Introdução
 
-### É um framework que está sendo muito utilizado para construir APIs como também softwares monolitos, que tem o front-end junto ao backend, 
-deixando assim muitas funcionalidades prontas, escrevendo menos códigos e tendo resultados mais rápidos para o desenvolvedor.
+### É um framework que está sendo muito utilizado para construir APIs como também softwares monolitos, que tem o front-end junto ao backend, deixando assim muitas funcionalidades prontas, escrevendo menos códigos e tendo resultados mais rápidos para o desenvolvedor.
 
 <ul>
   <li>Um <b>framework Node.js</b>, para desenvolver aplicações web;</li>
