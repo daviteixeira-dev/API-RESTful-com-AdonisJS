@@ -9,7 +9,9 @@
 <p align="center">
   <a href="#Introdução"> 🧩 Introdução </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Resultados"> 🚀 Resultados</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Dependências"> 🧪 Dependências</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#Backend"> 💻 Back-end</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Dependências"> 🧪 Dependências</a>&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#Scripts"> 📖 Scripts</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
 <a id="Introdução"></a>
@@ -28,9 +30,9 @@
 <a id="Resultados"></a>
 ## 🚀 Resultados 
 
-### O resultado desse projeto é a criação de uma <b>API RESTful</b> onde temos um <b>CRUD</b> e relacionamento entre entidades, aprendendo a como utilizar o framework. Os 
-testes foram feitos via <b>Postman</b>, para garantir o correto funcionamento da API.
+### O resultado desse projeto é a criação de uma <b>API RESTful</b> onde temos um <b>CRUD</b> e relacionamento entre entidades, aprendendo a como utilizar o framework. Os testes foram feitos via <b>Postman</b>, para garantir o correto funcionamento da API.
 
+<a id="Backend"></a>
 ## 💻 Back-end
 
 ### Instalação e inicialização da API
@@ -134,7 +136,8 @@ http://localhost:3333/api/moments/1/comments
   </li>
 </ul>
 
-## `📖 Scripts` 
+<a id="Scripts"></a>
+## 📖 Scripts
 
 ```JSON
 "scripts": {
@@ -147,7 +150,7 @@ http://localhost:3333/api/moments/1/comments
 }
 
 ```
-## `📖 Dependencies` 
+### 📖 Dependencies 
 
 ```JSON
 "dependencies": {
@@ -163,9 +166,8 @@ http://localhost:3333/api/moments/1/comments
 }
 
 ```
-<br /> 
 
-## `📖 devDependencies` 
+### 📖 devDependencies 
 
 ```JSON
 "devDependencies": {
@@ -187,3 +189,5 @@ http://localhost:3333/api/moments/1/comments
 }
 
 ```
+
+<p align="center">Feito com ❤️ por Davi Teixeira</p>
